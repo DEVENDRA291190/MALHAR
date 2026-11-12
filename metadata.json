@@ -1,0 +1,6 @@
+{
+  "name": "PrintBridge",
+  "description": "Thermal printer bridge supporting TSPL and ESC/POS protocols over USB OTG and WebUSB",
+  "prompt": "PrintBridge thermal printer bridge application",
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
