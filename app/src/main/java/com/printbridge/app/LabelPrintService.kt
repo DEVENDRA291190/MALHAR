@@ -59,17 +59,22 @@ class LabelPrintService : PrintService() {
 
     override fun onPrintJobQueued(printJob: PrintJob) {
         printJob.start()
+        // PrintJob / PrintDocument must be touched on the main thread only
+        val pfd = try { printJob.document.data } catch (e: Exception) { null }
+        if (pfd == null) {
+            printJob.fail("Cannot read document")
+            return
+        }
         scope.launch {
             val file = File(cacheDir, "svc_job.pdf")
             val copied = withContext(Dispatchers.IO) {
                 runCatching {
-                    val pfd = printJob.document.data ?: error("No document")
                     java.io.FileInputStream(pfd.fileDescriptor).use { i ->
                         file.outputStream().use { o -> i.copyTo(o) }
                     }
-                    pfd.close()
                 }
             }
+            try { pfd.close() } catch (_: Exception) {}
             if (copied.isFailure) {
                 printJob.fail(copied.exceptionOrNull()?.message ?: "Cannot read document")
                 return@launch
