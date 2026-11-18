@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrintBridge</string>
+    <string name="printer">प्रिंटर</string>
+    <string name="usb">USB</string>
+    <string name="bluetooth">ब्लूटूथ</string>
+    <string name="refresh">रीफ्रेश</string>
+    <string name="no_printers">कोई प्रिंटर नहीं मिला। प्रिंटर को OTG केबल से जोड़ें, या पहले Android ब्लूटूथ सेटिंग में पेयर करें (PIN आमतौर पर 0000 या 1234)।</string>
+    <string name="paper_type">पेपर का प्रकार</string>
+    <string name="paper_receipt">रसीद रोल</string>
+    <string name="paper_gap">लेबल – गैप</string>
+    <string name="paper_mark">लेबल – ब्लैक मार्क</string>
+    <string name="paper_receipt_desc">सादा रोल, बिना गैप। जितना कंटेंट होता है उतना ही प्रिंट होता है। रसीद रोल में कैलिब्रेशन नहीं चाहिए।</string>
+    <string name="paper_gap_desc">लाइनर पर कटे हुए लेबल। रोल लगाने के बाद Calibrate चलाएँ।</string>
+    <string name="paper_mark_desc">पीछे काली पट्टी वाला पेपर। रोल लगाने के बाद Calibrate चलाएँ।</string>
+    <string name="roll_size">रोल साइज़</string>
+    <string name="preset_75">75 x 75 mm</string>
+    <string name="preset_80">80 x 160 mm</string>
+    <string name="width_mm">चौड़ाई mm</string>
+    <string name="height_mm">ऊँचाई mm</string>
+    <string name="gap_mm">गैप mm</string>
+    <string name="mark_mm">मार्क mm</string>
+    <string name="page_mm">पेज mm</string>
+    <string name="max_width_note">अधिकतम प्रिंट चौड़ाई 104 mm है।</string>
+    <string name="page_mm_note">Page mm सिर्फ़ Chrome के प्रिंट डायलॉग में दिखने वाली पेज की लंबाई है; प्रिंट कंटेंट के हिसाब से कटता है।</string>
+    <string name="quality">प्रिंट क्वालिटी</string>
+    <string name="darkness">गहराई: %1$d</string>
+    <string name="speed">स्पीड: %1$d</string>
+    <string name="threshold">ब्लैक थ्रेशोल्ड: %1$d</string>
+    <string name="dither">डिदरिंग (फ़ोटो / लोगो के लिए)</string>
+    <string name="invert">बिट्स उलटें (अगर लेबल नेगेटिव छपे)</string>
+    <string name="rotate180">आउटपुट 180° घुमाएँ</string>
+    <string name="offset_x">क्षैतिज ऑफ़सेट (डॉट्स, 8 = 1 mm)</string>
+    <string name="test_print">टेस्ट प्रिंट</string>
+    <string name="calibrate">कैलिब्रेट</string>
+    <string name="print_pdf">फ़ोन से PDF प्रिंट करें…</string>
+    <string name="enable_service">Android प्रिंटिंग में PrintBridge चालू करें</string>
+    <string name="close">बंद करें</string>
+    <string name="svc_setup_first">PrintBridge · पहले प्रिंटर सेट करें</string>
+    <string name="st_sending">भेज रहे हैं…</string>
+    <string name="st_sent">प्रिंटर को भेज दिया ✓</string>
+    <string name="st_error">त्रुटि: %1$s</string>
+    <string name="st_select">पहले प्रिंटर चुनें</string>
+    <string name="st_not_connected">प्रिंटर कनेक्ट नहीं है। केबल या ब्लूटूथ पेयरिंग जाँचें।</string>
+    <string name="st_usb_denied">USB अनुमति नहीं मिली</string>
+    <string name="st_usb_granted">USB अनुमति मिल गई</string>
+    <string name="st_bt_denied">ब्लूटूथ अनुमति नहीं मिली</string>
+    <string name="st_no_calibration">रसीद रोल में कैलिब्रेशन नहीं चाहिए</string>
+    <string name="st_reading">PDF पढ़ रहे हैं…</string>
+    <string name="st_page">पेज %1$d / %2$d प्रिंट हो रहा है</string>
+    <string name="st_pdf_none">कोई PDF नहीं मिली।</string>
+    <string name="st_not_pdf">यह PDF नहीं है। अगर यह किसी वेबसाइट से आई है, तो लिंक खोलने के लिए लॉगिन ज़रूरी हो सकता है।</string>
+    <string name="st_pdf_password">PDF पासवर्ड से सुरक्षित है</string>
+    <string name="st_pdf_empty">PDF में कोई पेज नहीं है</string>
+</resources>

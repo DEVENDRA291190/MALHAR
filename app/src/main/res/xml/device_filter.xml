@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TSC (VID 0x1203) and generic USB printer class (7) -->
+    <usb-device vendor-id="4611" />
+    <usb-device class="7" />
+</resources>

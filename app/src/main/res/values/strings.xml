@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrintBridge</string>
+    <string name="printer">Printer</string>
+    <string name="usb">USB</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_printers">No printers found. Plug the printer in with an OTG cable, or pair it in Android Bluetooth settings first (PIN is usually 0000 or 1234).</string>
+    <string name="paper_type">Paper type</string>
+    <string name="paper_receipt">Receipt roll</string>
+    <string name="paper_gap">Labels – gap</string>
+    <string name="paper_mark">Labels – black mark</string>
+    <string name="paper_receipt_desc">Plain roll, no gaps. Prints only as long as the content. Receipt roll needs no calibration.</string>
+    <string name="paper_gap_desc">Die-cut labels on a liner. Run Calibrate after loading.</string>
+    <string name="paper_mark_desc">Stock with a printed black bar on the reverse. Run Calibrate after loading.</string>
+    <string name="roll_size">Roll size</string>
+    <string name="preset_75">75 x 75 mm</string>
+    <string name="preset_80">80 x 160 mm</string>
+    <string name="width_mm">Width mm</string>
+    <string name="height_mm">Height mm</string>
+    <string name="gap_mm">Gap mm</string>
+    <string name="mark_mm">Mark mm</string>
+    <string name="page_mm">Page mm</string>
+    <string name="max_width_note">Max printable width is 104 mm.</string>
+    <string name="page_mm_note">Page mm is only the page length offered in Chrome\'s print dialog; output is cut to the content.</string>
+    <string name="quality">Print quality</string>
+    <string name="darkness">Darkness: %1$d</string>
+    <string name="speed">Speed: %1$d</string>
+    <string name="threshold">Black threshold: %1$d</string>
+    <string name="dither">Dithering (photos / logos)</string>
+    <string name="invert">Invert bits (if labels print as a negative)</string>
+    <string name="rotate180">Rotate output 180°</string>
+    <string name="offset_x">Horizontal offset (dots, 8 = 1 mm)</string>
+    <string name="test_print">Test print</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="print_pdf">Print a PDF from phone…</string>
+    <string name="enable_service">Enable PrintBridge in Android printing</string>
+    <string name="close">Close</string>
+    <string name="svc_setup_first">PrintBridge · set up the printer first</string>
+    <string name="st_sending">Sending…</string>
+    <string name="st_sent">Sent to printer ✓</string>
+    <string name="st_error">Error: %1$s</string>
+    <string name="st_select">Select a printer first</string>
+    <string name="st_not_connected">Printer not connected. Check the cable or Bluetooth pairing.</string>
+    <string name="st_usb_denied">USB permission denied</string>
+    <string name="st_usb_granted">USB permission granted</string>
+    <string name="st_bt_denied">Bluetooth permission denied</string>
+    <string name="st_no_calibration">Receipt roll needs no calibration</string>
+    <string name="st_reading">Reading PDF…</string>
+    <string name="st_page">Printing page %1$d of %2$d</string>
+    <string name="st_pdf_none">No PDF was received.</string>
+    <string name="st_not_pdf">That isn\'t a PDF. If it came from a website, the link may need you to be logged in.</string>
+    <string name="st_pdf_password">PDF is password protected</string>
+    <string name="st_pdf_empty">The PDF has no pages</string>
+</resources>
