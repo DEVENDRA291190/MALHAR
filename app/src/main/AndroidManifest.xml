@@ -6,8 +6,8 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 
-    <application
-        android:label="@string/app_name"
+    <android:label="@string/app_name"
+       android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.PrintBridge">
 
         <activity android:name=".MainActivity" android:exported="true">
